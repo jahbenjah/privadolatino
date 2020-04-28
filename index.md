@@ -11,7 +11,7 @@ layout: default
 
   {% include parallax2.html %}
 
-  {% include portafolio.html %}
+  {% include programacion.html %}
 
   {% include parallax3.html %}
 
