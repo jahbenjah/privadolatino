@@ -7,7 +7,7 @@ layout: default
 
   {% include parallax1.html %}
 
-  {% include servicios.html %}
+  {% include planes.html %}
 
   {% include parallax2.html %}
 
