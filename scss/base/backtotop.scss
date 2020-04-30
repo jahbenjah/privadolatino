@@ -1,0 +1,27 @@
+/* Back to top button */
+@import "variables.scss";
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: linear-gradient(45deg, $secundario,$principal);
+    color: $fondo;
+    padding: 2px 20px 8px 20px;
+    font-size: 16px;
+    border-radius: 4px 4px 0 0;
+    right: 15px;
+    bottom: 0;
+    transition: none;
+  }
+  
+  .back-to-top:focus {
+    background: linear-gradient(45deg,$secundario,$principal);
+    color: $fondo;
+    outline: none;
+  }
+  
+  .back-to-top:hover {
+    background: $principal;
+    color: $fondo;
+  }
+  
