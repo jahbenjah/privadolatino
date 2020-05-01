@@ -1,22 +1,16 @@
-<!--==========================
-      Contact Section
-    ============================-->
+<!-- ======= Contact Section ======= -->
 <section id="contact">
     <div class="container">
         <div class="row wow fadeInUp">
 
             <div class="col-lg-4 col-md-4">
                 <div class="contact-about">
-                    <h3>Avilon</h3>
+                    <h3>TV Privado Latino</h3>
                     <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus.
-                        Scelerisque
-                        felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                        Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
                     <div class="social-links">
                         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/TVPrivadoLatino-105647204434987/?modal=admin_todo_tourl" class="facebook"><i class="fa fa-facebook"></i></a>
                     </div>
                 </div>
             </div>
@@ -25,27 +19,17 @@
                 <div class="info">
                     <div>
                         <i class="ion-ios-location-outline"></i>
-                        <p>Privada Alfredo V. Bonfil #36<br>Nicolás Romero, Col. la Y Griega <br>Progreso Industrual ,
-                            Nicolás
-                            Romero, Estado de México</p>
+                        <p>A108 Adam Street<br>New York, NY 535022</p>
                     </div>
 
                     <div>
                         <i class="ion-ios-email-outline"></i>
-                        <a href="mailto:mdpid2014@yahoo.com.mx">atencion a clientes</p>
-                    </div>
-                    <div>
-                        <i class="ion-ios-email-outline"></i> 
-                        <a href="mailto:publicidadsanchez@hotmail.com">ventas</a>
+                        <p>info@example.com</p>
                     </div>
 
                     <div>
                         <i class="ion-ios-telephone-outline"></i>
-                        <p> 5558280764</p>
-                    </div>
-                    <div>
-                        <i class="ion-ios-telephone-outline"></i>
-                        <p> 5554781682</p>
+                        <p>+1 5589 55488 55s</p>
                     </div>
 
                 </div>
@@ -53,34 +37,35 @@
 
             <div class="col-lg-5 col-md-8">
                 <div class="form">
-                    <div id="sendmessage">¡Gracias! Tu mensaje ha sido enviado</div>
-                    <div id="errormessage"></div>
-                    <form action="" method="post" role="form" class="contactForm">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="form-row">
                             <div class="form-group col-lg-6">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre"
-                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                <div class="validation"></div>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                <div class="validate"></div>
                             </div>
                             <div class="form-group col-lg-6">
                                 <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Correo electronico" data-rule="email"
-                                    data-msg="Please enter a valid email" />
-                                <div class="validation"></div>
+                                    placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                                <div class="validate"></div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
-                                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                            <div class="validation"></div>
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                            <div class="validate"></div>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                data-msg="Please write something for us" placeholder="Mensaj+"></textarea>
-                            <div class="validation"></div>
+                                data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validate"></div>
                         </div>
-                        <div class="text-center"><button type="submit" title="Send Message">Enviar mensaje</button>
+                        <div class="mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div>
+                        <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
                     </form>
                 </div>
             </div>
@@ -88,4 +73,4 @@
         </div>
 
     </div>
-</section><!-- #contact -->
+</section><!-- End Contact Section -->
