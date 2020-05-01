@@ -1,53 +1,76 @@
-<section id="contact" class="home-section nopadd-bot color-dark bg-white text-center">
-  <div class="container marginbot-50">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
-          <div class="section-heading text-center">
-            <h2 class="h-bold">Contact us</h2>
-            <div class="divider-header"></div>
-            <p>Lorem ipsum dolor sit amet, agam perfecto sensibus usu at duo ut iriure.</p>
-          </div>
+<!-- ======= Contact Section ======= -->
+<section id="contact">
+    <div class="container">
+        <div class="row wow fadeInUp">
+
+            <div class="col-lg-4 col-md-4">
+                <div class="contact-about">
+                    <h3>TV Privado Latino</h3>
+                    <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus.
+                        Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                    <div class="social-links">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/TVPrivadoLatino-105647204434987/?modal=admin_todo_tourl" class="facebook"><i class="fa fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+                <div class="info">
+                    <div>
+                        <i class="ion-ios-location-outline"></i>
+                        <p>A108 Adam Street<br>New York, NY 535022</p>
+                    </div>
+
+                    <div>
+                        <i class="ion-ios-email-outline"></i>
+                        <p>info@example.com</p>
+                    </div>
+
+                    <div>
+                        <i class="ion-ios-telephone-outline"></i>
+                        <p>+1 5589 55488 55s</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-8">
+                <div class="form">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="form-row">
+                            <div class="form-group col-lg-6">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                                <div class="validate"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                    </form>
+                </div>
+            </div>
+
         </div>
-      </div>
+
     </div>
-
-  </div>
-
-  <div class="container">
-
-    <div class="row marginbot-80">
-      <div class="col-md-8 col-md-offset-2">
-        <div id="sendmessage">Your message has been sent. Thank you!</div>
-        <div id="errormessage"></div>
-        <form action="" method="post" role="form" class="contactForm">
-          <div class="form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
-              data-msg="Please enter at least 4 chars" />
-            <div class="validation"></div>
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
-              data-msg="Please enter a valid email" />
-            <div class="validation"></div>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-              data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-            <div class="validation"></div>
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" name="message" rows="5" data-rule="required"
-              data-msg="Please write something for us" placeholder="Message"></textarea>
-            <div class="validation"></div>
-          </div>
-
-          <div class="text-center"><button type="submit" class="btn btn-skin btn-lg btn-block">Send Message</button>
-          </div>
-        </form>
-      </div>
-    </div>
-
-
-  </div>
-</section>
+</section><!-- End Contact Section -->
