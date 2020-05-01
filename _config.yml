@@ -1,0 +1,34 @@
+# Site settings
+title: TV Privado Latino
+email: info@privadolatino.com
+description: >- 
+ TV Privado Latino televisión IPTV
+baseurl: ""
+url: "https://privadolatino.com"
+twitter_username: denicolasromero
+google_analytics: UA-130293099-3
+lang: es_mx
+
+# Build settings
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-sitemap
+
+# Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - package-lock.json
+  - package.json
+  - gulpfile.js
+  - img-temp/
