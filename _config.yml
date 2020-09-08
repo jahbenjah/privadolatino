@@ -40,6 +40,6 @@ defaults:
     values:
       lang: "es"
       image:
-        path: /img/og-image.webp
+        path: /img/og-image.jpg
         height: 333
         width: 635
