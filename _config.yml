@@ -41,5 +41,5 @@ defaults:
       lang: "es"
       image:
         path: og-image.jpg
-        height: 333
-        width: 635
+        height: 274
+        width: 524
