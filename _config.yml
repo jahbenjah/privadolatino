@@ -32,3 +32,14 @@ exclude:
   - package.json
   - gulpfile.js
   - img-temp/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: "es"
+      image:
+        path: /img/og-image.webp
+        height: 333
+        width: 635
